@@ -1,0 +1,23 @@
+main{
+    width:80%;
+    margin: 10vh auto 0 auto ;
+}
+
+.button_center{
+    text-align: center ;
+} 
+
+.hideMe {
+    -webkit-animation: cssAnimation 2.5s forwards; 
+    animation: cssAnimation 2.5s forwards;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
